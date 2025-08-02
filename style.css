@@ -1,0 +1,88 @@
+@charset "UF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Playwrite+PL:wght@100..400&family=Salsa&family=Signika+Negative:wght@300..700&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Passion+One:wght@400;700;900&family=Playwrite+PL:wght@100..400&family=Salsa&family=Signika+Negative:wght@300..700&family=Sriracha&display=swap');
+
+:root{
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Passion One', cursive;
+    --font3:'Sriracha', cursive;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: var(--font2);
+}
+header > h1{
+    padding-top: 50px;
+    font-variant:small-caps;
+    font-size:10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+a{
+   color:white;
+   text-transform: none; 
+   font-weight:bolder
+}
+section{
+    padding-top:10vh ;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size:3.5vw;
+}
+section > p{
+    padding-bottom: 2px;
+}
+section#img1{
+    background-image:url('imagens/background001.jpg') ;
+    background-position: right center;
+    background-size: cover;
+}section#img2{
+    background-image:url('imagens/background002.jpg');   
+    background-position: right center; 
+    background-size: cover;
+}                                                                                                                                                                                                                 
+
+.imagem{
+    background-color: rgb(51,51,51);
+    color:white;
+    box-shadow:inset 6px 6px 13px rgba(0, 0, 0, 0.737);
+    background-attachment: fixed;
+}
+
+.imagem > p{
+   display:inline-block;
+   background-color: rgba(0, 0, 0, 0.416);
+   padding:15px;
+   box-shadow:1px 1px 10px black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.normal{
+    background-color: white;
+    color:black;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px ;
+}
